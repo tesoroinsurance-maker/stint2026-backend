@@ -1,0 +1,18 @@
+{
+  "name": "stint2026-backend",
+  "version": "1.0.0",
+  "description": "STINT 2026 챗봇 - 암호화 DB 백엔드 (Q&A/퀴즈 공유 통계, 관리자 조회, 이메일 발송)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "better-sqlite3": "^11.3.0",
+    "nodemailer": "^6.9.14"
+  }
+}
